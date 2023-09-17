@@ -11,15 +11,15 @@ function myFunction() {
 	else if(inputText.toLowerCase().indexOf("bullshit")>-1){
 		document.getElementById("answer").innerHTML="as long as people exist, bullshit everywhere";
 		}
-	
-	else if(inputText.toLowerCase().indexOf("asshole")>-1){
-		document.getElementById("answer").innerHTML=`Definition: Incalcitrant liar, demands assurance because of lacking in substance. Bite u with committed words, If things don't work out, find somebody, something to blame but themselves.<br/>	
-		Best treatment, ignore these people, else move on.  These people will dissolve once society learns to ignore them entirely. They thrive amongst losers and establishments because they manipulate the people in the system to hide their incompetence.</a>`;       
+	//profile-Xho
+	else if(inputText.toLowerCase().indexOf("who are you")>-1){
+		document.getElementById("answer").innerHTML=`Former DJ/Producer at Sonar Radio<br/>Studied Sociology at National University of Singapore<br/>Went to St. Joseph's Institution, Singapore<br/>Lived in Singapore<br/>From Singapore<br/>Single.</a>`;       
 		} 
-	else if(inputText.toLowerCase().indexOf("god")>-1){
-		document.getElementById("answer").innerHTML='A scientist has calculated that there is a 67% chance that God exists<br/><a href="https://www.theguardian.com/education/2004/mar/08/highereducation.uk1#:~:text=A%20scientist%20has%20calculated%20thatexistence%20of%20an%20omnipotent%20being."  target="_blank">story</a>'; 
+    //on lky
+	else if(inputText.toLowerCase().indexOf("lky")>-1&&inputText.toLowerCase().indexOf("malaysia chinese card")>-1){
+		document.getElementById("answer").innerHTML=`See, lah! And all this while, LKY scared us Singaporeans about a Malaysia-reunification! <br/>I mean, let's be honest, lah.... When China consolidates her world power status to become an economic power-house, you think even the LKY-patriots won't hanker for a China-business connection? We are bread-&-butter pragmatists! Seriously... <br/>A close pal of mine (an avid PAP-supporter) - a banker - had already gone the way of mastering Mandarin in a private course and completed it... and that's just the beginning of his business interests... so, it's obvious! <br/>How would a "Chinese card" hurt? Like nine Terrex detained? LOL.<br/> (Quick, may time pass quickly, Terrex-issue buried, so that Singapore will be better candidate for "Chinese card" than Malaysia. Must! We are so much better a country anyway! Just ask LKY! "M'sia - ordinary country, nia!" Hmmph.)<br/>#AffectedPatriot<br/>source: fb 20170204<br/><a href="https://wwww.thecoverage.my/" target="_blank">theCoverage.my site is down</a>`; 
 		}
-	else if(inputText.toLowerCase().indexOf("weather")>-1){
+	else if(inputText.toLowerCase().indexOf("lky")>-1&&inputText.toLowerCase().indexOf("keep you thinking")>-1){
 		document.getElementById("answer").innerHTML='<a href="http://www.weather.gov.sg/lightning/lightning/lightningalertinformationsystem.jsp"  target="_blank">click for SG weather</a><br><a href="https://map.worldweatheronline.com/" target="_blank">click for satelite world weather</a>'; 
 		}
 	else if(inputText.toLowerCase().indexOf("ai replace")>-1){
@@ -54,4 +54,4 @@ function myFunction() {
 	
 	} else {
 	document.getElementById("answer").innerHTML='Please rephrase your question,<br>not in our database yet, <br>or out-of-scope for FreeMindson<br><a href="mailto:freemindson.co@gmail.com?&subject=ChatBot%20Enquiry&body=Thank%20you%20for%20your%20email%20to%20FreeMindson", target="_blank">email</a>';      
-	}
+	}}
